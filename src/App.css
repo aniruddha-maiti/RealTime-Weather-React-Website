@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.main{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.weather-card{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.app-header{
+  font-size: 35px;
+  font-family: Poppins;
+  margin: 20px;
+  color: #1a32d5;
+  text-shadow: 2px 2px 5px red;
+  font-weight: 600;
+}
+.weather-card-child{
+  font-family: Poppins !important;
+  margin-top: 10px;
+}
+.icon-container{
+  position: relative;
+  right: -120px;
+}
+.temp-desc{
+  text-transform: capitalize;
+  font-family: Poppins;
+}
+.weather-card-main{
+  top: 10px;
+  bottom: 10px;
+  width: 400px !important;
+  border-top: 2px solid blue !important;
+  border-bottom: 2px solid red !important;
+  border-left: 2px solid red !important;
+  border-right: 2px solid blue !important;
+}
+.forecast-header{
+  font-family: Poppins !important;
+}
+.forecast-card{
+  top: 20px;
+  border-top: 2px solid #81c784 !important;
+  border-bottom: 2px solid #afb42b !important;
+  border-left: 2px solid #afb42b !important;
+  border-right: 2px solid #81c784 !important;
+}
+.forecast-date{
+  font-family: Poppins !important;
+  font-size: 10px !important;
+  margin-bottom: 10px;
+}
